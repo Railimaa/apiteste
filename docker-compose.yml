@@ -8,7 +8,7 @@ services:
     depends_on:
       - db
     environment:
-      - POSTGRES_DB=theredoces
+      - POSTGRES_DB=db-1
   db:
     image: postgres
     ports:
