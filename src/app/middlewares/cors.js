@@ -2,6 +2,9 @@ module.exports = (request, response, next) => {
   const allowedOrigins = [
     'http://localhost:3002',
     'http://localhost:3003',
+    'https://theredoces.vercel.app',
+    'https://thereadm.vercel.app',
+    ''
   ];
 
   const origin = request.header('origin');
