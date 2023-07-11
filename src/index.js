@@ -13,3 +13,4 @@ app.use(routes);
 app.use(errorHandler);
 
 app.listen(5000, () => console.log('😈 server is running in http://localhost:5000'));
+console.log('Hello world')
