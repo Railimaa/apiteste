@@ -3,6 +3,7 @@ module.exports = (request, response, next) => {
     'https://theredoces.vercel.app',
     'https://thereadm.vercel.app',
     'https://theredoces.com.br ',
+    'http://theredoces.com.br ',
   ];
 
   const origin = request.header('origin');
